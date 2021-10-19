@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-  import { useStore } from '~/store/test'
+  import { useStore } from '~/store/counter'
 
   const store = useStore()
 </script>
