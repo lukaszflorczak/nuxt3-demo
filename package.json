@@ -6,6 +6,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "^3.0.0-27366343.1d741cb",
+    "sass": "^1.48.0"
   }
 }
