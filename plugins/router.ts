@@ -3,7 +3,7 @@ import { defineNuxtPlugin } from '#app'
 export default defineNuxtPlugin(({ $router }) => {
   $router.options.scrollBehavior = (to, from, savedPosition) => {
     if (to.hash) {
-      console.log('Go to hash')
+      console.log('Go to hash', to.hash)
 
       return {
         el: to.hash,
